@@ -1,0 +1,17 @@
+html {
+  font-size: 15px;
+}
+
+* body {
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  color hsl(0, 0%, 95%);
+}
+
+body, button {
+  background-color: hsl(0, 0%, 95%);
+}
