@@ -5,19 +5,84 @@ html {
 * body {
   box-sizing: border-box;
   font-family: 'Lexend Deca', sans-serif;
-}
-
-h2 {
-  font-family: 'Big Shoulders Display', cursive;
-  color hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 body, button {
   background-color: hsl(0, 0%, 95%);
 }
 
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  color hsl(0, 0%, 95%);
+  font-size: 2.75rem;
+}
+
+h2, p {
+  margin: 0;
+}
+
+p {
+  line-height: 1.75;
+}
+
 section {
-  width: 90%;;
   border-radius: 0.33rem;
-  margin: auto;
+  margin: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+  padding: 3.5rem;
+}
+
+.card img {
+  width: 64px;
+  height: 40px;
+}
+
+section a {
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 120px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card1 {
+  border-radius: 5px 5px 0 0;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card1 a {
+  color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card2 a {
+  color:hsl(184, 100%, 22%)
+}
+
+.card3 {
+  border-radius: 0 0 5px 5px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card3 a {
+  color: hsl(179, 100%, 13%);
+}
+
+a:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: inherit;
+  color: inherit;
+  padding: calc(1rem - 2px);
 }
